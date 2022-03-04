@@ -116,4 +116,70 @@ nav {
 .more {
     text-decoration: none;
     color: white;
+    margin-bottom: 56px;
+}
+
+/*game section */
+#games {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;  
+    height: 559px;
+    margin: auto;
+    background-color: #F0F0F0;
+    margin-top: 56px;
+}
+
+.game{
+    width: 300px;
+    height: 326px;
+    margin: 73px 30px 73px 0px;
+    background-color: #F0F0F0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 3px 0px #BBBCB3;
+}
+
+.game-image {
+    width: 300px;
+    height: 169px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.container-games {
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.game-title {
+    margin: auto;
+    color: #3879af;
+    font-size: 36px;
+    margin-top: 36px;
+}
+
+.title {
+    font-size: 18px;
+    margin-left: 40px;
+    color: #797979;
+}
+
+.description {
+    font-size: 12px;
+    color: #797979;
+    margin-left: 47px;
+    margin-bottom: -30px;
+}
+
+.de {
+    color: #3879af;
+    font-weight: bold;
+}
+
+.grade {
+    color: #3879af;
+    font-size: 36px;
+    font-weight: bold;
+    justify-self: center;
+    margin-left: 124px;
 }
