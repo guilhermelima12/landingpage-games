@@ -7,22 +7,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PlayGame</title>
 </head>
+<link rel="stylesheet" href="style.css">
 
 <body>
-    <header>
-        <h2>PlayGame</h2>
-        <nav>
-            <ul>
-                <li><a href="#notices">Notícias</a></li>
-                <li><a href="#games">Jogos</a></li>
-                <li><a href="#subscribe">Inscreva-se</a></li>
-                <img src="img/user.png" alt="user">
-            </ul>
-        </nav>
-    </header>
+    <div class="header-container">
+        <header id="header">
+            <nav>
+                <div class="logo">
+                    <h2>PlayGame</h2>
+                </div>
+                <div class="header-links">
+                    <ul>
+                        <li class="links"><a class="button-header" href="#notices">Notícias</a></li>
+                        <li class="links"><a class="button-header" href="#games">Jogos</a></li>
+                        <li class="links"><a class="button-header" href="#subscribe">Inscreva-se</a></li>
+                    </ul>
+                    <img class="logo-img" src="img/user.png" alt="user">
+                </div>
+
+            </nav>
+        </header>
+    </div>
     <section id="notices">
-        <h1>Últimas notícias</h1>
-        <article>
+        <h1 class="notice-title">Últimas notícias</h1>
+        <div>
             <h3>Título principal da notícia</h3>
             <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vitae ducimus aperiam.</h4>
             <p>23/02/2022</p>
@@ -38,9 +46,9 @@
                 Eligendi sapiente id enim quibusdam, repudiandae optio error! Vitae perspiciatis voluptatem sequi
                 nostrum necessitatibus culpa fuga ...</p>
             <a href="#">Leia Mais</a>
-        </article>
+        </div>
 
-        <article>
+        <div>
             <h3>Título principal da notícia</h3>
             <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vitae ducimus aperiam.</h4>
             <p>23/02/2022</p>
@@ -56,9 +64,10 @@
                 Eligendi sapiente id enim quibusdam, repudiandae optio error! Vitae perspiciatis voluptatem sequi
                 nostrum necessitatibus culpa fuga ...</p>
             <a href="#">Leia Mais</a>
-        </article>
-
-        <a href="#more">Carregar mais</a>
+        </div>
+        <div>
+            <a href="#more">Carregar mais</a>
+        </div>
     </section>
 
     <section id="games">

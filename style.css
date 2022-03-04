@@ -1,0 +1,68 @@
+/* header */
+
+body {
+    margin: 0;
+}
+
+.header-container {
+    box-shadow: 0px 4px 3px 0px #BBBCB3;
+}
+
+.header {
+    width: auto;
+    height: 90px;
+}
+
+nav {
+   background-color: #3879af;
+   display: flex;
+   max-width: auto;
+   justify-content: space-between;
+}
+
+.logo {
+    color: white;
+    margin-top: 27px;
+    margin-bottom: 27px;
+    margin-left: 105px;
+}
+
+.header-links {
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links {
+    display: inline;
+    margin-top: 34px;
+    margin-bottom: 34px;
+    margin-left: 29px;
+}
+
+.button-header {
+    color: #ffff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.logo-img {
+   width: 62px;
+   height: 62px;
+   margin: auto;
+}
+
+/* notices section */
+
+#notices {
+    display: flex;
+    flex-direction: column;
+    width: 990px;
+    height: 735px;
+    align-items: center;
+}
+
+.notice-title {
+    
+}
