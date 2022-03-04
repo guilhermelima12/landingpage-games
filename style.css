@@ -10,7 +10,7 @@ body {
 }
 
 .header {
-    width: auto;
+    width: 100%;
     height: 90px;
 }
 
@@ -70,6 +70,7 @@ nav {
     color: #797979;
     margin-top: 40px;
     margin-bottom: 40px;
+    font-size: 36px;
 }
 
 .notice {
@@ -182,4 +183,96 @@ nav {
     font-weight: bold;
     justify-self: center;
     margin-left: 124px;
+}
+
+/* Subscribe section */
+
+#subscribe {
+    margin-top: 39px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-subscribe {
+    font-size: 36px;
+    color: #797979;
+    margin: auto;
+}
+
+.container-form {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 61px;
+    width: 790px;
+    height: 522px;
+    background-color: #F0F0F0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 3px 0px #BBBCB3;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 642px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 52px;
+}
+
+.input-text {
+    width: 642px;
+    height: 40px;
+    border-radius: 4px;
+    font-size: 16px;
+    border: 1px solid #797979;
+    padding-left: 22px;
+    color: #BBBCB3;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.question {
+    font-size: 16px;
+    color: #797979;
+}
+
+.radio-input {
+    margin-bottom: 7px;
+    color: #797979;
+}
+
+.checkbox {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #797979;
+}
+
+.buttons {
+    display: flex;
+}
+
+.form-button-submit {
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background-color: #DD7E92;
+    border-radius: 8px;
+    border: solid #DD7E92;
+    padding: 20px 90px 20px 90px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.form-button-reset {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    border: 2px solid #DD7E92;
+    color: #DD7E92;
+    cursor: pointer;
+    padding: 20px 90px 20px 90px;
+    font-size: 18px;
 }
