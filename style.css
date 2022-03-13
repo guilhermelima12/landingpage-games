@@ -1,4 +1,8 @@
-/* header */
+* {
+    box-sizing: border-box;
+}
+
+
 html { 
     scroll-behavior: smooth;
 }
@@ -6,14 +10,17 @@ html {
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    scroll-behavior: smooth;
+    padding: 0;
 }
+
+/* header */
+
 
 .header-container {
     box-shadow: 0px 4px 3px 0px #BBBCB3;
     width: 100%;
     background-color: #3879af;
-    
+    position: fixed;    
 }
 
 .header {
@@ -22,9 +29,12 @@ body {
 }
 
 nav {
+   width: 100%;
+   max-width: 1200px;
    display: flex;
    max-width: auto;
    justify-content: space-between;
+   margin: 0 auto;
 }
 
 .logo {
@@ -68,9 +78,9 @@ nav {
     display: flex;
     flex-direction: column;
     width: 990px;
-    height: 1000px;
     align-items: center;
     margin: auto;
+    padding-top: 100px ;
 }
 
 .last-news {
@@ -115,16 +125,13 @@ nav {
     color: #DD7E92;
 }
 
-.container-more {
-    background-color:  #DD7E92;
-    padding: 20px 50px 20px 50px ;
-    border-radius: 8px;
-}
-
 .more {
+    background-color:  #DD7E92;
+    border-radius: 8px;
     text-decoration: none;
-    color: white;
-    margin-bottom: 56px;
+    color: white;  
+    padding: 20px 50px 20px 50px ; 
+    height: 50px;
 }
 
 /*game section */
@@ -304,3 +311,5 @@ nav {
     flex-direction: column;
     align-items: center;
 }
+
+
