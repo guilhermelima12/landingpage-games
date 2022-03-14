@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+html { 
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --header-blue: #3879af;
+}
+
+#header {
+    width: 100%;
+    background-color: var(--header-blue);
+    color: white;
+    height: 90px;
+    position: fixed;
+    box-shadow: 0px 4px 3px 0px #BBBCB3;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.links {
+    display: none;
+}
+
+.logo-img {
+    width: 62px;
+}
+
