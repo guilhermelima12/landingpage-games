@@ -229,7 +229,8 @@ hr {
 .buttons {
     display: flex;
     flex-direction: column;
-    margin: 50px 30px 30px 30px;
+    align-items: center;
+    margin: 50px 0 30px 0;
 }
 
 .form-button-submit {
@@ -237,10 +238,11 @@ hr {
     color: white;
     background-color: var(--buttons-color);
     border: none;
-    padding: 20px 0;
+    padding: 20px 90px;
     cursor: pointer;
     font-size: 18px;
     border-radius: 8px;
+    max-width: 244px;
 }
 
 .form-button-reset {
@@ -248,13 +250,27 @@ hr {
     color: var(--buttons-color);
     background-color: white;
     border: none;
-    padding: 20px 0;
+    padding: 20px 90px;
     cursor: pointer;
     font-size: 18px;
     border: 1px solid var(--buttons-color);
     border-radius: 8px;
+    max-width: 244px;
 }
 
 .footer {
+    width: 100%;
     background-color: var(--footer);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+    padding: 30px 0 0 0;
+    text-align: center;
 }
+
+.footer div {
+    margin-bottom: 40px;
+}
+
