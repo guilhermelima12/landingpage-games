@@ -17,6 +17,7 @@ body {
     --header-blue: #3879af;
     --grey: #797979;
     --buttons-color: #DD7E92;
+    --light-grey: #F0F0F0;
 }
 
 #header {
@@ -63,7 +64,7 @@ nav {
 
 .notice {
     margin: 10px;
-    background-color: #F0F0F0;
+    background-color: var(--light-grey);
     border-radius: 8px;
     padding: 13px;
     box-shadow: 0px 4px 3px 0px #BBBCB3;
@@ -118,3 +119,59 @@ hr {
     margin-bottom: 50px;
 }
 
+#games {
+    width: 100%;
+    background-color: var(--light-grey);
+}
+
+.game-title {
+    text-align: center;
+    padding: 40px 0 20px 0;
+    color: var(--header-blue);
+}
+
+.container-games {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.game {
+    margin: 27px 10px;
+    box-shadow: 0px 4px 3px 0px #BBBCB3;
+    padding-bottom: 20px;
+    border-radius: 0 0 8px 8px;
+    text-align: center;
+}
+
+.game img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 4px 4px 0 0;
+}
+
+.title {
+    color: var(--grey);
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 27px;
+}
+
+.de {
+    color: var(--header-blue);
+    font-weight: bold;
+}
+
+.description {
+    font-size: 12px;
+    color: var(--grey);
+}
+
+.grade {
+    color: var(--header-blue);
+    margin-top: 13px;
+    font-size: 36px;
+    font-weight: bold;
+}
